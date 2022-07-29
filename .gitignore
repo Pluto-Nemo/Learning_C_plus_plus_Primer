@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Debugs and configures
+.vscode/
+.idea/
