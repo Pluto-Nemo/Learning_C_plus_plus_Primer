@@ -1,15 +1,11 @@
 # Hints for 1.1
 
-- 不同编译器中的后缀命名约定（via：《C++ Primer Plus 6th 》中文版 p8）
+- 常用编译器中的后缀命名约定（via：《C++ Primer Plus 6th 》中文版 p8）
 
   |        C++实现         |  源代码文件的扩展名   |
   | :--------------------: | :-------------------: |
   |        GNU C++         | C、cc、cxx、cpp、c++  |
   |  Microsoft Visual C++  |     cpp、cxx、cc      |
-  |      Digital Mars      |       cpp、cxx        |
-  |      Borland C++       |          cpp          |
-  |         Watcom         |          cpp          |
-  | Freestyle Code Warrior | cp、cpp、cc、cxx、c++ |
 
 - 对于刚开始接触命令行的读者，需要注意：
 
