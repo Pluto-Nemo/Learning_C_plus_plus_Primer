@@ -4,7 +4,6 @@
 
   |        C++实现         |  源代码文件的扩展名   |
   | :--------------------: | :-------------------: |
-  |          UNIX          |     C、cc、cxx、c     |
   |        GNU C++         | C、cc、cxx、cpp、c++  |
   |  Microsoft Visual C++  |     cpp、cxx、cc      |
   |      Digital Mars      |       cpp、cxx        |
