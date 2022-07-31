@@ -1,0 +1,21 @@
+# Hints for 1.1
+
+- 不同编译器中的后缀命名约定（via：《C++ Primer Plus 6th 》中文版 p8）
+
+  |        C++实现         |  源代码文件的扩展名   |
+  | :--------------------: | :-------------------: |
+  |          UNIX          |     C、cc、cxx、c     |
+  |        GNU C++         | C、cc、cxx、cpp、c++  |
+  |  Microsoft Visual C++  |     cpp、cxx、cc      |
+  |      Digital Mars      |       cpp、cxx        |
+  |      Borland C++       |          cpp          |
+  |         Watcom         |          cpp          |
+  | Freestyle Code Warrior | cp、cpp、cc、cxx、c++ |
+
+- 对于刚开始接触命令行的读者，需要注意：
+
+  - `$` 和 `C:\Users\me\Programs`是系统提示符，不是命令的一部分，不需要输入
+  - 可以使用 `$ help` 查看帮助信息或前往官方网站查看参考文档，解锁更多命令
+
+  
+
