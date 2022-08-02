@@ -1,14 +1,14 @@
 #include <iostream>
-#include "Sales_items.h"
-
+#include "../Sales_item.h"
 int main()
 {
-    Sales_item sum, book;
-    std::cin >> sum;
-    while(std::cin >> book){
-        sum += book;
+    Sales_item itemSum, itemBook;
+    std::cin >> itemSum;
+    while (std::cin >> itemBook)
+    {
+        itemSum += itemBook;
     }
-    std::cout << sum << std::endl;
-    
+    std::cout << itemSum << std::endl;
+
     return 0;
 }

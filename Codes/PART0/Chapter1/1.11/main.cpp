@@ -1,26 +1,14 @@
 #include <iostream>
-int main()
-{
-    int v1 = 0, v2 = 0;
-    std::cout << "Please enter two integers:" << std::endl;
-    std::cin >> v1 >> v2;
-    
-    if(v1 == v2){
-        std::cout << "There is no other integers between them." << std::endl;
-    }else{
-        std::cout << "The numbers between two integers are shown below:" << std::endl;
-        if(v1 > v2){
-            while(v1-1 > v2){
-                --v1;
-                std::cout << v1 << std::endl;
-            }
-        }else{
-            while(v1+1 < v2){
-                ++v1;
-                std::cout << v1 << std::endl;
-            }
-        }
-    }
 
+int main(){
+    int a = 0, b = 0, val = 0;
+    std::cout << "Please input a smaller number and a bigger number in sequence:" << std::endl;
+    std::cin >> a >> b;
+    std::cout << "The numbers between two integers are shown below:" << std::endl;
+    val = a;
+    while(val <= b){
+        std::cout << val << std::endl;
+        ++val;
+    }
     return 0;
 }

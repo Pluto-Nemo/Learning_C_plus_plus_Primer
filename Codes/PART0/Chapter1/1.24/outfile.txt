@@ -1,0 +1,3 @@
+﻿ISBN-1 occurs 3 times.
+ISBN-5 occurs 1 times.
+0-0-1-X occurs 1 times.

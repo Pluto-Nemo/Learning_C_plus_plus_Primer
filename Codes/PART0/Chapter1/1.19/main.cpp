@@ -11,16 +11,14 @@ int main()
     }else{
         std::cout << "The numbers between two integers are shown below:" << std::endl;
         if(v1 > v2){
-            while(v1-1 > v2){
-                --v1;
-                std::cout << v1 << std::endl;
-            }
-        }else{
-            while(v1+1 < v2){
-                ++v1;
-                std::cout << v1 << std::endl;
-            }
+            int tmp = 0;
+            tmp = v1; v1 = v2; v2 = tmp;
         }
+        while(v1 <= v2){
+            std::cout << v1 << std::endl;
+            ++v1;
+        }
+        
     }
 
     return 0;
