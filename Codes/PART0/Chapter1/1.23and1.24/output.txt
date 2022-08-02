@@ -1,6 +1,0 @@
-Please enter a number of sales records:
-0-201-70353-X has 1 record(s).
-0-201-82470-1 has 1 record(s).
-0-201-88954-4 has 4 record(s).
-0-399-82477-1 has 2 record(s).
-0-201-78345-X has 2 record(s).
