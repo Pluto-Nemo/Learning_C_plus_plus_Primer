@@ -10,6 +10,6 @@ int main(){
     std::cout << i - i2 << std::endl;
     std::cout << i - u << std::endl;
     std::cout << u - i << std::endl;
-
+    
     return 0;
 }
