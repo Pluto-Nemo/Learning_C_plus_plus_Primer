@@ -4,8 +4,7 @@ int main()
 {
     Sales_item itemSum, itemBook;
     std::cin >> itemSum;
-    while (std::cin >> itemBook)
-    {
+    while (std::cin >> itemBook){
         itemSum += itemBook;
     }
     std::cout << itemSum << std::endl;

@@ -1,9 +1,13 @@
 #include <iostream>
 #include <string>
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
 
 struct Sales_data
 {
-    std::string ID = "init"; //商品名称
+    string ID = "init"; //商品名称
     unsigned saleNum = 0;    //已销售的数量
     double perPrice = 0.0;   //本次销售的商品单价
     double sumPrice = 0.0;   //本次销售的商品总价
@@ -12,8 +16,8 @@ struct Sales_data
 int main()
 {
     Sales_data book1, book2, sum;
-    std::cin >> book1.ID >> book1.saleNum >> book1.perPrice;
-    std::cin >> book2.ID >> book2.saleNum >> book2.perPrice;
+    cin >> book1.ID >> book1.saleNum >> book1.perPrice;
+    cin >> book2.ID >> book2.saleNum >> book2.perPrice;
 
     book1.sumPrice = book1.perPrice * book1.saleNum;
     book2.sumPrice = book2.perPrice * book2.saleNum;
@@ -24,10 +28,10 @@ int main()
     if(sum.sumPrice != 0){
         sum.perPrice = sum.sumPrice / sum.saleNum; 
     }else{
-        std::cout << "No sales!" << std::endl;
+        cout << "No sales!" << endl;
         return 1;
     }
-    std::cout << sum.ID << " " << sum.saleNum << " "
-              << sum.perPrice << " " << sum.sumPrice << std::endl;
+    cout << sum.ID << " " << sum.saleNum << " "
+         << sum.perPrice << " " << sum.sumPrice << endl;
     return 0;
 }
