@@ -33,5 +33,21 @@
 
 ### 第三章
 
-#### 3.1
+#### 3.1 [命名空间的using声明](.\PART1\Chapter3\3.1命名空间的using声明.md)
+
+#### 3.2 [标准库类型string](.\PART1\Chapter3\3.2标准库类型string.md)
+
+#### 3.3 [标准库类型vector](.\PART1\Chapter3\3.3标准库类型vector.md)
+
+#### 3.4 [迭代器介绍](.\PART1\Chapter3\3.4迭代器介绍.md)
+
+#### 3.5 [数组](.\PART1\Chapter3\3.5数组.md)
+
+#### 3.6 [多维数组](.\PART1\Chapter3\3.6多维数组.md)
+
+
+
+### 第四章
+
+#### 4.1
 
